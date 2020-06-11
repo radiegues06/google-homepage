@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    display: flex;
+    padding: 0 1.2em;
+}
+
+.footer-links li {
+    vertical-align: bottom;
+    padding: 0.9em;
+}
+
+@media(min-width: 800px)
