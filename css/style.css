@@ -20,32 +20,35 @@ a:hover {
 /* Central search part */
 
 .search {
-    width: 100vw;
-    margin-top: 25vh;
+    width: 65%;
+    margin-top: 11%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #logo {
-    max-width: 100%;
+    width: 30%;
     height: auto;
 }
 
 .search-bar {
     border: #dfe1e5 1px solid;
     border-radius: 24px;
-    height: 3em;
+    height: 3.5em;
     display: flex;
     justify-content: space-between;
     margin: 2em auto;
     padding: 0 10px 0 14px;
     vertical-align: middle;
-    width: 35vw;
+    width: 50%;
 }
 
 .search-bar i {
     color: #9AA0A6;
     font-size: 1.5em;
     margin: auto 0;
+    align-content: center;
 }
 
 .search-bar:hover {
@@ -74,6 +77,7 @@ a:hover {
     display: block;
     justify-content: center;
     width: 30vw;
+    min-width: fit-content;
 }
 
 .search-buttons button {
@@ -119,4 +123,32 @@ footer nav ul {
 .footer-links li {
     vertical-align: bottom;
     padding: 0.9em;
+    white-space: nowrap;
+}
+
+@media(max-width: 1080px) {
+    body {
+        font-size: 12px;
+    }
+    .search {
+        width: 75%;
+    }
+}
+
+@media(max-width: 880px) {
+    body {
+        font-size: 11px;
+    }
+    .search {
+        width: 85%;
+    }
+}
+
+@media(max-width: 680px) {
+    body {
+        font-size: 10px;
+    }
+    .search {
+        width: 100%;
+    }
 }
