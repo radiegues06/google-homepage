@@ -39,7 +39,7 @@ a:hover {
     margin: 2em auto;
     padding: 0 10px 0 14px;
     vertical-align: middle;
-    width: 40vw;
+    width: 35vw;
 }
 
 .search-bar i {
@@ -64,6 +64,34 @@ a:hover {
 
 #query:focus {
     outline: none;
+}
+
+
+/* Buttons */
+
+.search-buttons {
+    margin: 1.5em auto;
+    display: block;
+    justify-content: center;
+    width: 30vw;
+}
+
+.search-buttons button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 1em;
+    padding: 10px 16px;
+    text-align: center;
+    margin: auto 0.5em;
+}
+
+.search-buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 
